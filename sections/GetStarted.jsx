@@ -26,8 +26,51 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How MetaDroid Works " />
-        <TitleText title={<> Get Started with just a few clicks </>} />
+        <TypingText title="| How to book " />
+<TitleText
+  title={
+    <>
+      <a
+        href="tel:0762739173"
+        style={{
+          display: 'block',
+          padding: '8px 0',
+          borderBottom: '1px solid #ccc',
+          textDecoration: 'none',
+        }}
+      >
+        📞 Call: 0762739173
+      </a>
+      <a
+        href="https://wa.me/2762739173"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'block',
+          padding: '8px 0',
+          borderBottom: '1px solid #ccc',
+          textDecoration: 'none',
+        }}
+      >
+        💬 Message on WhatsApp
+      </a>
+      <a
+        href="https://www.google.com/maps?q=Folkvisegatan+2,+Gothenburg,+Sweden"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'block',
+          padding: '8px 0',
+          textDecoration: 'none',
+        }}
+      >
+        Dropin 📍 Folkvisegatan 2, Gothenburg, Sweden
+      </a>
+    </>
+  }
+/>
+
+
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((features, index) => (
             <StartSteps

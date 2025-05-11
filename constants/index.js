@@ -1,28 +1,35 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/eyebrow.png',
+    title: 'Threading - 60 kr',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/haircut.jpg',
+    title: (
+  <>
+    Straight – 75 kr<br />
+    U&V – 100 kr<br />
+    Layer – 200 kr
+  </>
+)
+
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Hueco Mundo',
+    imgUrl: '/facial.jpg',
+    title: 'Facial - 150 kr',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/nail.jpg',
+    title: 'Nail-art - fr. 100 kr',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/all.jpg',
+    title: 'Blowdry, Curl setting, Temporary straightening, Hot oil massage - call',
   },
 ];
 
@@ -70,18 +77,8 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
-  },
-  {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/_viggi.g_/',
+    link: 'https://www.instagram.com/kayal_nails/',
   },
 ];

@@ -14,11 +14,11 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Our customers" textStyles="text-center" />
       <TitleText
         title={(
           <>
-            Track friends around you and invite them to play together in the same world
+            From all over the world 🌍
           </>
         )}
         textStyles="text-center"
