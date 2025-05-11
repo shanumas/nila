@@ -42,7 +42,7 @@ const GetStarted = () => (
         📞 Call: 0762739173
       </a>
       <a
-        href="https://wa.me/2762739173"
+        href="https://wa.me/46762739173"
         target="_blank"
         rel="noopener noreferrer"
         style={{

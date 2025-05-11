@@ -14,6 +14,34 @@ const Hero = () => (
       className={`${styles.innerWidth2} mx-auto flex flex-col`}
     >
       <div className="relative z-10 flex flex-col items-center justify-center">
+        <div style={{ display: 'flex', gap: '24px', justifyContent: 'center', padding: '12px' }}>
+  <a
+    href="tel:0762739173"
+    style={{ fontSize: '32px', textDecoration: 'none' }}
+    aria-label="Call"
+  >
+    📞
+  </a>
+  <a
+    href="https://wa.me/46762739173"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ fontSize: '32px', textDecoration: 'none' }}
+    aria-label="WhatsApp"
+  >
+    💬
+  </a>
+  <a
+    href="https://www.google.com/maps?q=Folkvisegatan+2,+Gothenburg,+Sweden"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ fontSize: '32px', textDecoration: 'none' }}
+    aria-label="Location"
+  >
+    📍
+  </a>
+</div>
+
         <motion.h1
           variants={textVariant(1.1)}
           className={styles.heroHeading}
