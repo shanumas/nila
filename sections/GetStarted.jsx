@@ -20,7 +20,7 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         className={`${styles.flexCenter} flex-1`}
       >
-        <img src="/get-started.png" alt="Get-Started" className="w-[90%] h-[90%] object-content" />
+        <img src="/metaverse.png" alt="Get-Started" className="w-[90%] h-[90%] object-content" />
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
@@ -69,17 +69,6 @@ const GetStarted = () => (
     </>
   }
 />
-
-
-        <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((features, index) => (
-            <StartSteps
-              key={features}
-              number={index + 1}
-              text={features}
-            />
-          ))}
-        </div>
       </motion.div>
     </motion.div>
   </section>

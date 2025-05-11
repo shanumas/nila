@@ -26,7 +26,17 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Call: 0762739173
+                  <a
+        href="tel:0762739173"
+        style={{
+          display: 'block',
+          padding: '8px 0',
+          borderBottom: '1px solid #ccc',
+          textDecoration: 'none',
+        }}
+      >
+        📞 Call: 0762739173
+      </a>
           </span>
         </button>
       </div>
