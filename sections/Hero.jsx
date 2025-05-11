@@ -13,7 +13,8 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth2} mx-auto flex flex-col`}
     >
-      <div className="relative z-10 flex flex-col items-center justify-center">
+      <div className="relative z-10 flex flex-col items-center justify-center text-white">
+        Click to call or message or google maps
         <div
           style={{
             display: "flex",
@@ -24,7 +25,7 @@ const Hero = () => (
         >
           <a
             href="tel:0762739173"
-            style={{ fontSize: "32px", textDecoration: "none" }}
+            style={{ fontSize: "50px", textDecoration: "none" }}
             aria-label="Call"
           >
             📞
@@ -33,7 +34,7 @@ const Hero = () => (
             href="https://wa.me/46762739173"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontSize: "32px", textDecoration: "none" }}
+            style={{ fontSize: "50px", textDecoration: "none" }}
             aria-label="WhatsApp"
           >
             💬
@@ -42,7 +43,7 @@ const Hero = () => (
             href="https://www.google.com/maps?q=Folkvisegatan+2,+Gothenburg,+Sweden"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontSize: "32px", textDecoration: "none" }}
+            style={{ fontSize: "50px", textDecoration: "none" }}
             aria-label="Location"
           >
             📍
