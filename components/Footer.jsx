@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { motion } from "framer-motion";
+import { socials } from "../constants";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -19,24 +19,27 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Call to book an appointment
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        >
           <img
             src="/headset.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-                  <a
-        href="tel:0762739173"
-        style={{
-          display: 'block',
-          padding: '8px 0',
-          borderBottom: '1px solid #ccc',
-          textDecoration: 'none',
-        }}
-      >
-        📞 Call: 0762739173
-      </a>
+            <a
+              href="tel:0762739173"
+              style={{
+                display: "block",
+                padding: "8px 0",
+                borderBottom: "1px solid #ccc",
+                textDecoration: "none",
+              }}
+            >
+              📞 Call: 0762739173
+            </a>
           </span>
         </button>
       </div>
@@ -53,7 +56,7 @@ const Footer = () => (
           </p>
 
           <div className="flex gap-4 text-white">
-            Instagram: 
+            Instagram:
             {socials.map((social) => (
               <a key={social.name} href={social.link}>
                 <img
