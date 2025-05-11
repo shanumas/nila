@@ -29,7 +29,7 @@ export const exploreWorlds = [
   {
     id: 'world-5',
     imgUrl: '/all.jpg',
-    title: 'Blowdry, Curl setting, Temporary straightening, Hot oil massage - call',
+    title: 'Blowdry, Curl setting, Temporary straightening, Hot oil massage',
   },
 ];
 
