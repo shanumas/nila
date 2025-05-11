@@ -52,7 +52,8 @@ const Footer = () => (
             Copyright © 2025 - NILA. All rights reserved.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 text-white">
+            Instagram: 
             {socials.map((social) => (
               <a key={social.name} href={social.link}>
                 <img
