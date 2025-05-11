@@ -3,6 +3,12 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+const copyToClipboard = (text) => {
+  navigator.clipboard
+    .writeText(text)
+    .then(() => alert(`Copied: ${text}`))
+    .catch((err) => console.error("Copy failed:", err));
+};
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -14,7 +20,29 @@ const Hero = () => (
       className={`${styles.innerWidth2} mx-auto flex flex-col`}
     >
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
-        Click to call or message or google maps
+        Click to call or message or google map
+        <div>
+          <span>076273973</span>
+          <button onClick={() => copyToClipboard("076273973")} title="Copy">
+            📋
+          </button>
+          &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <span>Folkvisegatan 2</span>
+          <button
+            onClick={() => copyToClipboard("Folkvisegatan 2")}
+            title="Copy"
+          >
+            📋
+          </button>
+          &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <span>Balladgatan bus stop</span>
+          <button
+            onClick={() => copyToClipboard("Balladgatan bus stop")}
+            title="Copy"
+          >
+            📋
+          </button>
+        </div>
         <div
           style={{
             display: "flex",
@@ -49,7 +77,6 @@ const Hero = () => (
             📍
           </a>
         </div>
-
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           NILA
         </motion.h1>

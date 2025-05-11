@@ -70,6 +70,7 @@ const GetStarted = () => (
         }}
       >
         Dropin 📍 Folkvisegatan 2, Gothenburg, Sweden
+        Balladgatan - Bus stop
       </a>
     </>
   }
