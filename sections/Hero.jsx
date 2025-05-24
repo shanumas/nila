@@ -21,7 +21,7 @@ const Hero = () => (
     >
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
         Click to call or message or google map
-        <div>
+        <div className="hidden">
           <span>0762739173</span>
           <button onClick={() => copyToClipboard("0762739173")} title="Copy">
             📋
