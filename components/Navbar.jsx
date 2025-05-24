@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { navVariants } from "../utils/motion";
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
 
 const Navbar = () => (
   <motion.nav
@@ -27,8 +27,8 @@ const Navbar = () => (
         className="pricing-button"
         onClick={() =>
           document
-            .getElementById("explore")
-            ?.scrollIntoView({ behavior: "smooth" })
+            .getElementById('explore')
+            ?.scrollIntoView({ behavior: 'smooth' })
         }
       >
         pricing
