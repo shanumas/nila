@@ -20,7 +20,7 @@ const Hero = () => (
       className={`${styles.innerWidth2} mx-auto flex flex-col`}
     >
       <div className="relative z-10 flex flex-col items-center justify-center text-white">
-        Click to call or message or google map
+        Click icons to CALL, MESSAGE, GOOGLE MAPS
         <div className="hidden">
           <span>0762739173</span>
           <button onClick={() => copyToClipboard("0762739173")} title="Copy">
@@ -76,6 +76,24 @@ const Hero = () => (
           >
             📍
           </a>
+        </div>
+        <div>
+          <span>0762739173</span>
+          <button
+            onClick={() => copyToClipboard("0762739173")}
+            title="Copy"
+            style={{
+              backgroundColor: "#007BFF",
+              color: "#fff",
+              border: "none",
+              padding: "8px 12px",
+              borderRadius: "4px",
+              cursor: "pointer",
+              fontSize: "14px",
+            }}
+          >
+          Copy Number
+          </button>
         </div>
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           NILA
