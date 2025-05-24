@@ -25,11 +25,7 @@ const Navbar = () => (
 
       <button type="button"
         className="pricing-button"
-        onClick={() =>
-          document
-            .getElementById('explore')
-            ?.scrollIntoView({ behavior: 'smooth' })
-        }
+        onClick={() => document.getElementById('explore')?.scrollIntoView({ behavior: 'smooth' })}
       >
         pricing
       </button>
