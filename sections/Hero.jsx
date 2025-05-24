@@ -85,18 +85,18 @@ const Hero = () => (
             title="Copy"
             className="copy-button"
           >
-          Copy Number
+          Copy
           </button>
         </div>
                 <div>
-          <span>Folkvisegatan 2, Balladgatan bus stop</span>
+          <span>Folkvisegatan 2, Balladgatan bus-stop</span>
           &nbsp;
           <button
             onClick={() => copyToClipboard("Folkvisegatan 2")}
             title="Copy"
             className="copy-button"
           >
-          Copy Address
+          Copy
           </button>
         </div>
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
