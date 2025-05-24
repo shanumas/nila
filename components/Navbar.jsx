@@ -23,7 +23,7 @@ const Navbar = () => (
         Facial, Haircut, Eyebrow, Nails
       </h2>
 
-      <button
+      <button type="button"
         className="pricing-button"
         onClick={() =>
           document
