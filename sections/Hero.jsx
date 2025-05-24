@@ -89,7 +89,7 @@ const Hero = () => (
           </button>
         </div>
         <div>
-          <span>Folkvisegatan2, Balladgatan busstop</span>
+          <span>Folkvisegatan 2, Balladgatan busstop</span>
           &nbsp;
           <button
             onClick={() => copyToClipboard("Folkvisegatan 2")}
